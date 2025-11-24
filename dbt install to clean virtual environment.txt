@@ -1,0 +1,7 @@
+To avoid Windows blocking executables in roaming folders, you can install dbt in a clean virtual environment:
+
+cd C:\Users\jtadina\Documents
+python -m venv dbt-env
+dbt-env\Scripts\activate
+pip install dbt-bigquery
+dbt --version
